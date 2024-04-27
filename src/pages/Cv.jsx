@@ -2,12 +2,16 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import pdf from "../assets/CV Nacho Gracia.pdf";
+import pdf from "../assets/cv.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document } from "@react-pdf/renderer";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 const Cv = () => {
   const [width, setWidth] = useState(1200);
+  const [cv, setCv] = useState(pdf);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -16,11 +20,12 @@ const Cv = () => {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px", backgroundColor: "blue" }}
+            style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -29,7 +34,7 @@ const Cv = () => {
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            {/* <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.6} /> */}
+            <Page pageNumber={1} scale={width > 786 ? 1 : 0.6} />
           </Document>
         </Row>
 
