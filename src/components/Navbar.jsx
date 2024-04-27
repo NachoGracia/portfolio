@@ -33,7 +33,7 @@ const NavBar = () => {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="sm"
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
@@ -45,17 +45,13 @@ const NavBar = () => {
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
+        ></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
-                Home
+                &nbsp;Home
               </Nav.Link>
             </Nav.Item>
 
