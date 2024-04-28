@@ -11,7 +11,7 @@ export const Home = () => {
           <Row>
             <Col xs={12}md={6} className="home-header">
               <h1 style={{ paddingBottom: 10 }} className="heading">
-                Hola!
+                Hola! 
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -31,7 +31,7 @@ export const Home = () => {
                 width={400}
                 height={400}
                 alt="171x180"
-                src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif"
+                src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif?cid=790b7611y03nlp1r4ibva5wepdz455mmcqm5j6428rkg68rl&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 fluid
               />
             </Col>

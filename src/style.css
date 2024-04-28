@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgb(17, 42, 139),
-    rgb(15, 23, 42)
+    to left,
+    #302b63,
+   #0f0c29
   );
 
   --imp-text-color: #25cda0;
@@ -50,20 +50,22 @@ button:focus {
 }
 
 /* Track */
+
+
 ::-webkit-scrollbar-track {
-  background: #0e5240;
+  background: #0e5240 !important;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--imp-text-color);
-  border-radius: 12px;
+  background: var(--imp-text-color) !important;
+  border-radius: 12px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--imp-text-color);
-  border-radius: 12px;
+  background: var(--imp-text-color) !important;
+  border-radius: 12px !important;
 }
 
 /* --------- */
@@ -203,6 +205,41 @@ button:focus {
 /* Home section */
 /* --------- */
 
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /* .home-header {
   padding-top: 80px !important;
 } */
@@ -269,9 +306,7 @@ button:focus {
       
     
   }
-  .Typewriter__cursor {
-    display: none !important;
-  }
+  
 }
 
 /* @media (max-width: 500px){
@@ -438,14 +473,14 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: var(--imp-text-color) !important;
 }
 
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
+  aspect-ratio: 16 / 9;
 }
 
 .blog-img {
@@ -514,7 +549,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid var(--imp-text-color) !important;
+  box-shadow: var(--imp-text-color) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
