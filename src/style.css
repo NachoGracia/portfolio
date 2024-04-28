@@ -98,8 +98,8 @@ button:focus {
   width: 27px !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
-  left: 0 !important;
+  transform: rotate(180deg) !important;
+  
   opacity: 1 !important;
 }
 
@@ -114,13 +114,7 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
-  opacity: 0.9 !important;
-}
+
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
   height: 12px !important;
@@ -329,7 +323,7 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   padding-bottom: 20px !important;
 }
 
