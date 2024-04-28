@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Col, Row, Figure, Image } from "react-bootstrap";
+import { Container, Col, Row, Image } from "react-bootstrap";
+import {AiFillLinkedin, AiOutlineGithub} from "react-icons/ai"
 import Type from "../components/Type";
 
 export const Home = () => {
@@ -8,7 +9,7 @@ export const Home = () => {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={6} className="home-header">
+            <Col xs={12}md={6} className="home-header">
               <h1 style={{ paddingBottom: 10 }} className="heading">
                 Hola!
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -22,16 +23,16 @@ export const Home = () => {
               </h1>
 
               <div style={{ textAlign: "left" }}>
-                <Type />
+                <Type/>
               </div>
             </Col>
-            <Col lg={6}>
-              <Image
+            <Col xs={12}md={6}>
+              <Image className="home-gif"
                 width={400}
                 height={400}
                 alt="171x180"
                 src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif"
-                thumbnail
+                fluid
               />
             </Col>
           </Row>
@@ -78,51 +79,33 @@ export const Home = () => {
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>FIND ME ON</h1>
+             
               <p>
-                Feel free to <span className="green">connect </span>with me
+                <span className="green">Conecta </span>conmigo!
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/soumyajit4419"
+                    href="https://github.com/NachoGracia"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    {/* <AiFillGithub /> */}
+                    <AiOutlineGithub/>
                   </a>
                 </li>
+              
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://www.linkedin.com/in/gracianacho/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    {/* <AiOutlineTwitter /> */}
+                    <AiFillLinkedin/>
                   </a>
                 </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.linkedin.com/in/soumyajit4419/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    {/* <FaLinkedinIn /> */}
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.instagram.com/soumyajit4419"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    {/* <AiFillInstagram /> */}
-                  </a>
-                </li>
+                
               </ul>
             </Col>
           </Row>

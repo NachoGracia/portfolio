@@ -203,14 +203,14 @@ button:focus {
 /* Home section */
 /* --------- */
 
-.home-header {
+/* .home-header {
   padding-top: 80px !important;
-}
+} */
 
 .home-section {
   min-height: 100vh;
   position: relative;
-  z-index: -1;
+  z-index: auto;
   background-image: var(--section-background-color);
   background-position: top center;
   background-repeat: no-repeat;
@@ -223,6 +223,16 @@ button:focus {
   color: whitesmoke;
   text-align: left;
 }
+
+.home-gif{
+  box-shadow: 2px 2px 5px 2px var(--imp-text-color) !important;
+}
+@media (max-width: 767px) {
+  .home-gif {
+    margin-top: 50px !important; 
+  }
+}
+
 
 .heading {
   font-size: 1.5em !important;
@@ -244,6 +254,7 @@ button:focus {
   color: var(--imp-text-color);
   font-weight: 600 !important;
   padding-left: 45px;
+ 
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -254,12 +265,20 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    
+      
+    
   }
   .Typewriter__cursor {
     display: none !important;
   }
 }
+
+/* @media (max-width: 500px){
+  .home-header {
+    padding-top: 80px !important;
+  }
+} */
 
 /* .myAvtar {
   justify-content: center !important;
@@ -344,7 +363,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: var(--imp-text-color) !important;
 }
 
 /* --------- */
