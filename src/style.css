@@ -517,7 +517,15 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+.about-body {
+  padding-top: 20px;
+  font-size: 1.2em !important;
+  text-align: left;
+}
 
+.about-activity{
+  list-style: none !important;
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
