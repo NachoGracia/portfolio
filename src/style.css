@@ -1,13 +1,19 @@
 html {
+  height: 100%;
+ 
+
+  --imp-text-color: #25cda0;
+}
+
+body {
+  min-height: 100%;
+
   --section-background-color: linear-gradient(
     to left,
     #302b63,
    #0f0c29
   );
-
-  --imp-text-color: #25cda0;
 }
-
 .green {
   color: var(--imp-text-color) !important;
 }
