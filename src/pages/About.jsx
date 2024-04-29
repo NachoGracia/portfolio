@@ -26,11 +26,11 @@ const About = () => {
               Conóceme
             </h1>
             <p className="about-body">Después de una década inmerso en el mundo audiovisual como 
-            <i><b className="green">director de fotografía</b></i>, 
+            <i><b className="green"> director de fotografía</b></i>, 
             decidí emprender un emocionante cambio impulsado por mi fascinación por la tecnología:
              convertirme en <i><b className="green">desarrollador full stack.</b></i>
             </p>
-            <p className="about-body">Ahora, mi día a día consiste en crear emocionantes <i><b className="green">aplicaciones web</b></i>, siempre al tanto de las últimas tendencias tecnológicas.</p>
+            <p className="about-body">Ahora, mi día a día consiste en crear <i><b className="green">aplicaciones web</b></i>, siempre al tanto de las últimas tendencias tecnológicas.</p>
             <p className="about-body">Cuando no estoy inmerso en líneas de código, 
             me encontrarás <i><b className="green">explorando nuevos horizontes,</b></i> ya sea viajando a destinos exóticos 🚀,
              nadando en aguas cristalinas 🏊‍♂️ o cuidando con mimo de mis adorables plantas 🌱.
