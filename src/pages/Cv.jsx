@@ -41,7 +41,7 @@ const Cv = () => {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+          {/* <Button
             variant="primary"
             href={pdf}
             target="_blank"
@@ -49,7 +49,7 @@ const Cv = () => {
           >
             <AiOutlineDownload />
             &nbsp;Download CV
-          </Button>
+          </Button> */}
         </Row>
       </Container>
     </div>

@@ -10,7 +10,7 @@ export const Home = () => {
         <Container className="home-content">
           <Row>
             <Col xs={12}md={6} className="home-header">
-              <h1 style={{ paddingBottom: 10 }} className="heading">
+              <h1  className="heading">
                 Hola! 
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
