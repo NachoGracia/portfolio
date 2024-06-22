@@ -1,8 +1,19 @@
-# React + Vite
+# Portfolio Nacho Gracia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el código fuente de mi portfolio personal desarrollado con React y Vite. El portfolio muestra mi trabajo como desarrollador full stack, incluyendo proyectos, habilidades técnicas y herramientas que utilizo.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- :zap: **React**: Utilizado para construir la interfaz de usuario de manera eficiente y efectiva.
+- :rocket: **Vite**: Empleado para el empaquetado y desarrollo rápido, aprovechando su Hot Module Replacement (HMR).
+- :art: **Bootstrap & React-Bootstrap**: Para un diseño responsivo y estilizado.
+- :compass: **React Router**: Para la navegación entre páginas sin recargar.
+- :symbols: **React Icons**: Proporciona íconos populares que se pueden usar en proyectos React.
+
+## Contribuir
+
+Las contribuciones son siempre bienvenidas. Si tienes alguna sugerencia para mejorar este proyecto, no dudes en abrir un issue o enviar un pull request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
