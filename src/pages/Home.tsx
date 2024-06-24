@@ -3,7 +3,7 @@ import { Container, Col, Row, Image } from "react-bootstrap";
 import {AiFillLinkedin, AiOutlineGithub} from "react-icons/ai"
 import Type from "../components/Type";
 
-export const Home = () => {
+const Home = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -99,3 +99,6 @@ export const Home = () => {
     </section>
   );
 };
+
+
+export default Home;

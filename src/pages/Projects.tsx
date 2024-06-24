@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "./ProjectCards";
 //import ProjectCard from "./ProjectCards";
@@ -10,7 +10,7 @@ import ProjectCards from "./ProjectCards";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
-function Projects() {
+const Projects:FC =() =>{
   return (
     <Container fluid className="project-section">
       <Container>

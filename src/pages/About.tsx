@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Toolstack from "../components/ToolStack";
 import TechStack from "../components/TechStack";
@@ -9,7 +9,9 @@ import TechStack from "../components/TechStack";
 // import laptopImg from "../../Assets/about.png";
 // import Toolstack from "./Toolstack";
 
-const About = () => { 
+
+
+const About:FC = () => { 
   return (
     <Container fluid className="about-section">
       <Container>

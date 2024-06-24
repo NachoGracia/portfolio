@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-//import { CgGitFork } from "react-icons/cg";
-//import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -15,17 +13,17 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
+  const scrollHandler = () => {
     if (window.scrollY >= 20) {
       updateNavbar(true);
     } else {
       updateNavbar(false);
     }
-  }
+  };
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -95,3 +93,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+

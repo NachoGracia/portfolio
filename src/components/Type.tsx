@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+const Type:FC =() => {
   return (
     <Typewriter
       options={{

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
@@ -9,7 +9,7 @@ import {
   SiWindows,
 } from "react-icons/si";
 
-const ToolStack = () => {
+const ToolStack:FC = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
