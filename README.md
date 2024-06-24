@@ -1,4 +1,4 @@
-# Portfolio Nacho Gracia
+# Portfolio
 
 Este es el código fuente de mi portfolio personal desarrollado con React y Vite. El portfolio muestra mi trabajo como desarrollador full stack, incluyendo proyectos, habilidades técnicas y herramientas que utilizo.
 
