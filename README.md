@@ -5,6 +5,7 @@ Este es el código fuente de mi portfolio personal desarrollado con React y Vite
 ## Características
 
 - :zap: **React**: Utilizado para construir la interfaz de usuario de manera eficiente y efectiva.
+- :scroll: **TypeScript**: Añade tipado estático a JavaScript, mejorando el desarrollo y mantenimiento del código.
 - :rocket: **Vite**: Empleado para el empaquetado y desarrollo rápido, aprovechando su Hot Module Replacement (HMR).
 - :art: **Bootstrap & React-Bootstrap**: Para un diseño responsivo y estilizado.
 - :compass: **React Router**: Para la navegación entre páginas sin recargar.

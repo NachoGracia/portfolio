@@ -45,7 +45,7 @@ const Home = () => {
                 <br />
                 <br />Está desarrollado con 
                 <i>
-                  <b className="green"> Javascript, React.js y React-bootstrap. </b>
+                  <b className="green"> Typescript, React.js y React-bootstrap. </b>
                 </i>
                 <br />
                 <br />
