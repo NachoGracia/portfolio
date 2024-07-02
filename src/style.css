@@ -479,15 +479,11 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  border-radius: 10px !important;
+  border-radius: 25px !important;
   aspect-ratio: 16 / 9;
 }
 
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
-}
+
 
 .btn-primary {
   color: #fff !important;
