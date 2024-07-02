@@ -7,11 +7,15 @@ import {
   SiVercel,
   SiMacos,
   SiWindows,
+  SiLubuntu,
 } from "react-icons/si";
 
 const ToolStack:FC = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiLubuntu />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows />
       </Col>
