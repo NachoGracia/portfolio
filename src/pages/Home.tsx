@@ -50,9 +50,7 @@ const Home = () => {
                 <br />
                 <br />
                 Te invito a que te des una vuelta por esta <i><b className="green">SPA</b></i> y así puedas conocerme un poco.
-                {/* <i>
-                  <b className="green"></b> <b className="green"></b>
-                </i> */}
+               
                 <br />
                 <br />
                 
