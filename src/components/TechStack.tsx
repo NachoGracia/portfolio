@@ -8,7 +8,7 @@ import {
   DiMongodb,
   DiBootstrap,
 } from "react-icons/di";
-import {} from "react-icons/si";
+import { SiExpress, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 
@@ -18,7 +18,9 @@ const TechStack: React.FC = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -26,9 +28,14 @@ const TechStack: React.FC = () => {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
