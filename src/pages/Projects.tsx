@@ -17,10 +17,18 @@ const Projects:FC =() =>{
         <h1 className="project-heading">
           Mis<strong className="green"> trabajos </strong> recientes
         </h1>
-        {/* <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p> */}
+    
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath="https://res.cloudinary.com/diyouj1se/image/upload/v1719912020/Captura_de_pantalla_48_ncopwy.png"
+              isBlog={false}
+              title="Frontend Mentor project"
+              description="Frontend de una ecommerce de frontendmentor.io"
+              ghLink="https://github.com/NachoGracia/e-commerce"
+              demoLink="https://e-commerce-rho-ebon.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCards
               imgPath="https://res.cloudinary.com/diyouj1se/image/upload/v1714337637/portfolio/j6tcfn9zpbwykmvkrpre.png"
