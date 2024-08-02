@@ -2,7 +2,7 @@ import React, { useState, useEffect, FC } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import pdf from "../assets/cv.pdf"
+import pdf from "../assets/Nacho Gracia_softwareDeveloper.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import 'react-pdf/dist/Page/TextLayer.css';
